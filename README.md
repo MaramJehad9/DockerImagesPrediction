@@ -1,2 +1,2 @@
 # DockerImagesPrediction
-This repository works to predict dokcer images using their features by ML techniques. 
+The Docker Images Dataset contains 15 features for 778 Docker images. 
