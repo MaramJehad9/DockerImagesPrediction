@@ -22,7 +22,7 @@
     </li>
     <br>
     <li>
-      <strong>Python Scripts (.py files)</strong><br>
+      <strong>Python Scripts (.py files in Code folder)</strong><br>
       These scripts were used to <strong>collect and extract features</strong> from Docker images:
       <ul>
         <li><code>base_imgs_pull.py</code> – Pulls base images from Docker Hub</li>
