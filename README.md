@@ -14,7 +14,7 @@
 
   <hr>
 
-  <h2>📂 <strong>Files Overview</strong></h2>
+  <h2> <strong>Files Overview</strong></h2>
   <ul>
     <li>
       <strong>Docker_Images_Features.xlsx</strong><br>
@@ -42,7 +42,7 @@
 
   <hr>
 
-  <h2>📌 <strong>Project Summary</strong></h2>
+  <h2> <strong>Project Summary</strong></h2>
 
 <p>
   This project focuses on building a machine learning model that can predict whether a Docker image is secure or potentially malicious, based on real-world data collected from Docker Hub. The process involves the following key steps:
