@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Docker Images Vulnerability Prediction</title>
+  
 </head>
 <body>
 
