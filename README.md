@@ -43,23 +43,24 @@
   <hr>
 
   <h2>📌 <strong>Project Summary</strong></h2>
-  <p>
-    The purpose of this project is to use real Docker image data to build a machine learning model that can predict image security status. The workflow includes:
-  </p>
-  <ol>
-    <li><strong>Collecting Docker images</strong> (official, popular, and community-contributed)</li>
-    <li><strong>Scanning for vulnerabilities</strong> using <strong>Snyk CLI</strong></li>
-    <li><strong>Extracting relevant features</strong> (severity, base image, dependencies, etc.)</li>
-    <li><strong>Labeling each image</strong> as <em>Secure</em> or <em>Insecure</em></li>
-    <li><strong>Training a machine learning model</strong> to classify new images</li>
-  </ol>
 
+<p>
+  This project focuses on building a machine learning model that can predict whether a Docker image is secure or potentially malicious, based on real-world data collected from Docker Hub. The process involves the following key steps:
+</p>
 
-  <p>
-    This project is influenced by the work of Aldiabat et al. (2024), who proposed an efficient Random Forest-based classifier for detecting malicious Docker images using a custom dataset of 14 security-focused features. Their model achieved a 99% F1-score and 100% AUC, highlighting the strong potential of ML for Docker image security.  [Read the full paper on IEEE Xplore →](https://ieeexplore.ieee.org/document/10768874)
+<ol>
+  <li><strong>Collecting Docker images</strong> — including official, popular, and community-contributed images across different categories.</li>
+  <li><strong>Scanning for vulnerabilities</strong> using the <strong>Snyk CLI</strong>, which checks for known security issues in each image.</li>
+  <li><strong>Extracting key features</strong> — such as severity levels, base image, number of dependencies, and more.</li>
+  <li><strong>Labeling each image</strong> as either <em>Secure</em> or <em>Insecure</em> based on scan results and recommendations.</li>
+  <li><strong>Training and testing a machine learning model</strong> to automatically classify new Docker images.</li>
+</ol>
 
-    Feel free to explore the code, dataset, and model. Let me know if you have any questions or suggestions!
-  </p>
+<p>
+  This work is inspired by the study conducted by <strong>Aldiabat et al. (2024)</strong>, who developed an efficient Random Forest-based classifier to detect malicious Docker images using a custom dataset of 14 security-related features. Their model achieved impressive results — including a <strong>99% F1-score</strong> and <strong>100% AUC</strong> — demonstrating the potential of machine learning in enhancing Docker image security.  
+  <a href="https://ieeexplore.ieee.org/document/10768874" target="_blank">📄 Read the full paper on IEEE Xplore</a>
+</p>
+
 
 </body>
 </html>
