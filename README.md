@@ -54,7 +54,10 @@
     <li><strong>Training a machine learning model</strong> to classify new images</li>
   </ol>
 
+
   <p>
+    This project is influenced by the work of Aldiabat et al. (2024), who proposed an efficient Random Forest-based classifier for detecting malicious Docker images using a custom dataset of 14 security-focused features. Their model achieved a 99% F1-score and 100% AUC, highlighting the strong potential of ML for Docker image security.  [Read the full paper on IEEE Xplore →](https://ieeexplore.ieee.org/document/10768874)
+
     Feel free to explore the code, dataset, and model. Let me know if you have any questions or suggestions!
   </p>
 
