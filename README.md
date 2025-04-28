@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <h1>🐳 Docker Images Vulnerability Prediction</h1>
+  <h1> Docker Images Vulnerability Prediction</h1>
 
   <p>
     This repository contains everything used to collect, process, and analyze Docker images for predicting whether they are secure or insecure using machine learning.
